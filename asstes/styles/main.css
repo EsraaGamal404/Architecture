@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* start section header */
+
+.header{
+  background-image: url(../images/home-3.jpg);
+  background-size: cover;
+  height: 120vh;
+  padding: 20px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 19px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  list-style: none;
+  font-weight: 700;
+}
+.logo{
+  width: 180px;
+height: 50px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.container h1{
+  color: #fff;
+  font-size: 13vh;
+padding: 10px;
+font-weight: 600;
+}
+.container p{
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+font-weight: 500;}
+.container h3{
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+}
+.btn1{
+  background-color:transparent ;
+  font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', arial;
+    letter-spacing: .2px;
+    font-weight: 900;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 28px;
+    border-radius: 4px;
+}
+.btn1:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: 1s;
+  border: 2px solid #fff;
+}
+.btn2{
+  background-color:#fff ;
+  font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', arial;
+    letter-spacing: .2px;
+    font-weight: 900;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 15px 28px;
+    border-radius: 4px;
+    position: relative;
+    left: 3vh;
+}
+.btn{
+  display: flex;
+  position: relative;
+  top: 3vh;
+}
+/* end section header */
+/* start section Architecture */
+.Architecture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.Architecture h1{
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 400;
+  padding: 10px;
+}
+.Architecture p{
+  color:#606060 ;
+  line-height: 1.86em;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+}
+/* end section Architecture */
+/*start section more*/
+.fa fa-check::before {
+  content: "\f00c";
+}
+.more,.must{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 60px;
+  
+}
+.more img,.must img{
+  width: 550px;
+}
+.more h3,.must h3{
+    font-weight: 400;
+    font-size: 28px;
+    color: #303030;
+    line-height: 1.38em;
+    margin-bottom: 25px;
+}
+.more p,.must p{
+  font-size: 19px;
+    line-height: 1.86em;
+    font-family: 'Open Sans', arial;
+    font-weight: 400;
+    color: #686868;
+
+}
+.more ul li{
+  list-style: none;
+ margin-bottom: 20px;
+}
+.more ul{
+  position: relative;
+  top: 4vh;
+  font-size: 15px;
+    line-height: 1.86em;
+    font-family: 'Open Sans', arial;
+    font-weight: 400;
+    color: #686868;
+}
+/*end section more*/
+/*start section view*/
+.up{
+  font-size: 80px;
+  color: #fff;
+}
+.pages h3{
+  color: #fff;
+  font-size: 52px;
+    font-weight: 400;
+    line-height: 1em;
+}
+.pages p{
+  font-size: 20px;
+    color: #fff;
+    line-height: 1.86em;
+}
+.view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 60px;
+  background-image: url(../images/archi16.jpeg);
+  box-shadow: 0px 0px 0px 1000px rgb(0,0,0,0.438) inset;
+}
+/*end section view*/
+/*start section must*/
+/*end section must*/
+/*start section typs*/
+.book,.pen,.heart,.light{
+  color: #606060;
+  font-size: 28px;
+  position: relative;
+  right: 35px;
+  top: 30px;
+}
+.option{
+    float: left;
+    padding:20px;
+}
+.typs{
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text h3{
+  color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+    font-size: 18px;
+}
+.text p{
+  color: #888;
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.86em;
+    font-weight: 400;
+}
+/*end section typs*/
+/*start section awseome*/
+.awseome{
+  background-image: url(../images/archi-12.jpeg);
+  box-shadow: 0px 0px 0px 1000px rgb(0,0,0,0.438) inset;
+padding: 60px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.awseome h1{
+  font-size: 40px;
+  font-weight: 400;
+  padding: 10px;
+  color: #fff;
+}
+.awseome p{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  color: #fff;
+}
+.section1,.section2{
+  background-color: #7e7a7a75;
+  padding: 10px;
+  line-height: 1.86em;
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+  .section2{
+    position: relative;
+    left: 4vh;
+  }
+  .section span{
+    color: #474444;
+  }
+  .section span{
+    position: relative;
+    left: 4vh;
+  }
+  .indot1{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin: 0px 10px;
+  }
+  .indot2{
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 2px solid #f8f8f8;
+    background-color:#f8f8f8;
+    margin: 0px 10px;
+  }
+  .indot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8vh;
+  }
+  /*start section contact */
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:#f8f8f8;
+  }
+  .inform h2{ 
+  font-family:"Alegreya" ;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color:#303030 ;
+  line-height:1.38em ;
+  }
+  .inform p{
+    color:#686868 ;
+    font-size: 17px;
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:1.38em ;
+  }
+  .inform h4{
+    color:#999292 ;
+    font-size: 17px;
+    font-family:"Alegreya Sans" ;
+    font-weight: 400;
+    line-height:1.38em ;
+    position: relative;
+    top: 4vh;
+  }
+  .cricle3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #606060;
+    position: relative;
+    right: 5vh; top: 4vh;
+  }
+  .book2,.head,.phone,.message{
+    color: #a89f9f;
+    position: relative;
+    top: 2vh; left: 1vh;
+  }
+  .for{
+  position: relative;
+  left: 4vh;
+  }
+   .inform{
+    overflow-y: hidden;
+    padding: 50px;
+   }
+   /* end section contact */
+   /*start section footer*/
+.footer{
+  background-color:#262626 ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.about h4 ,.hours h4,.pages h4,.contact2 h4{
+  color:#fff;
+  font-size: 17px;
+  margin-bottom: 25px;
+  line-height: 1.38em;
+  font-weight: 900;
+}
+.about p{
+  font-size: 17px;
+  color:#58606b ;
+  font-family: 'Open Sans', arial;
+    font-weight: 400;
+    line-height: 1.86em;
+}
+.hours span,.pages span,.contact2 span{
+  display: block;
+  padding: 5px;
+  font-size: 17px;
+  color:#58606b ;
+}
+.contact2 span:hover,.pages span:hover{
+  background-color: transparent;
+  transition: 0,60s;
+  cursor: pointer;
+}
+.hours span:hover{
+  background-color: transparent;
+}
+
+.contact2{
+  background-image: url(../images/contact-details-map.png);
+  width: fit-content;
+}
+.do ,.contact2 span,.on,.me{
+  color: #58606b;
+}
+.do:hover ,.on:hover,.me:hover{
+  color: #4274b7;
+}
+/*end section footer*/
+/*start section icons*/
+.icons{
+  display: flex;
+  justify-content: space-between;
+  background-color:#1b1b1b ;
+  padding: 60px;
+  align-items: center;
+  flex-direction: column;
+}
+.oo:hover,.di:hover,.iw:hover{
+  color: #4274b7;
+}
+
+.icons span{
+  color: #686868;
+  padding: 10px;
+}
+
+.go:hover{
+  color: rgb(223, 50, 20);
+}
+.oo,.go,.di,.iw{
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+/*end section icons*/
+
+@media (max-width:340px) {
+  body{
+    width: 100%;
+  }
+}
